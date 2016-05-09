@@ -1,0 +1,200 @@
+/*
+Theme Name: farm style
+Theme URI: 
+Author: 
+Author URI: 
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: 
+License URI: 
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/*-------- index.php ----------*/
+.jumbotron{
+	background-image: url('bootstrap/img/farmers-market-1329008_1280.jpg');
+	/*https://static.pexels.com/photos/26799/pexels-photo-26799.jpg*/
+	background-size: cover;
+	color: #fff;
+	height: 550px;
+	width: auto;
+	margin-top: 18px;
+	text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.arrow{
+	color: #fff;
+	margin-top: 150px;
+	left: 50%; 
+}
+
+.arrow a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#step-by-step{
+	/*background-color: red;*/
+	margin: 25px auto;
+	padding: 50px;
+}
+
+.index-map{
+	background-color: green;
+	margin: 0 auto;
+}
+.subscribe{
+	background-color: blue;
+	margin: 25px auto;
+	padding: 25px;
+	height: 250px;
+}
+
+.carousel{
+	max-height: 500px;
+	margin-bottom: 60px;
+}
+
+.carousel .item{
+	background-color: #000;
+}
+
+.carousel-inner > .item > img {
+	margin: 0 auto;
+	width: auto;
+	height: 500px;
+}
+
+
+
+/*-------- single-location.php ----------*/
+
+.single_page_location{
+	/*background-color: red;*/
+	margin-top: -15px;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+
+.user-data{
+	/*background-color: blue;*/
+	margin: 15px 0px;
+	padding: 5px;
+}
+
+.blog-title{
+	padding-bottom: 25px;
+}
+
+address{
+	margin: 25px;
+}
+
+.single-map {
+	margin: 15px -19px;
+}
+
+#kategorije{
+	margin: 25px;
+}
+#kategorije dl{
+	padding: 0;
+	background-color: green;
+}
+#kategorije dd{
+	padding: 5px;
+	background-color:orange;
+}
+
+/*-------- page-userlist.php ----------*/
+.page_userlist{
+	/*background-color: red;*/
+	margin-bottom: 30px;
+	padding: 50px;
+	float: center;
+} 
+
+.users-data{
+	/*background-color: blue;*/
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+/*-------- page-map.php ----------*/
+.page-map{
+	background-color: green;
+	margin-top: 20px;
+	padding: 0;
+}
+
+
+#floating-panel {
+	position: absolute;
+	margin-top: 10px;
+	left: 25%;
+	z-index: 5;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	line-height: 30px;
+	padding-left: 10px;
+} 
+
+#map_canvas{
+	background-color: purple;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 555px;
+}
+
+#side_bar{
+	background-color: orange;
+	/*border: 1px solid;*/
+	margin: 15px 5px;
+	padding: 25px;
+	height: 100%;
+}
+
+.side_bar_link{
+	padding: 20px;
+	font-size: 12pt;
+}
+
+.footer{
+	margin-top: 25px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	.jumbotron{
+		margin-top: -15px;
+	}
+	.single_page_location{
+		/*background-color: red;*/
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding: 5px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
